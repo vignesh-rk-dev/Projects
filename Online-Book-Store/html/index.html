@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="description" content="Buy Java, Python, Web development books online. Get 25% OFF on your first purchase!">
+  <title>Online Book Store</title>
+  <link rel="icon" href="/Project 1/images/favicon book.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+  .card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-body a.btn:hover {
+    background-color: #0b5ed7; /*darker*/
+    border-color: #0a58ca;
+  }
+
+  .list-group-item:hover {
+    background-color: #0d6efd;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .navbar .nav-link:hover {
+    color: #0d6efd;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .card-body {/*these are for card height */
+  padding: 0.5rem 0.5rem; /* reduced vertical padding */ 
+}
+
+.card-body h5 {
+  font-size: 0.9rem; /* smaller title */
+  margin-bottom: 0.25rem;
+}
+
+.card-body p {
+  font-size: 0.75rem; /* paragraph text */
+  margin-bottom: 0.2rem; /* less space*/
+  line-height: 1.2;
+}
+
+
+
+</style>
+
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4 sticky-top">
+  <a class="navbar-brand" href="#">📚 BookStore</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav ms-auto me-3">
+      <li class="nav-item"><a class="nav-link active" href="#java">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about us.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Offer-->
+<div class="bg-info text-white text-center p-3">
+  <h3>Online Book Store - 25% OFF on All Books!</h3>
+</div>
+
+<!-- Main Content -->
+<div class="container-fluid mt-3">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-2">
+      <div class="list-group sticky-top" style="top:120px;">
+        <a href="#java" class="list-group-item list-group-item-action">Java</a>
+        <a href="#python" class="list-group-item list-group-item-action">Python</a>
+        <a href="#javascript" class="list-group-item list-group-item-action">JavaScript</a>
+        <a href="#htmlcss" class="list-group-item list-group-item-action">HTML/CSS</a>
+        <a href="#bootstrap" class="list-group-item list-group-item-action">Bootstrap</a>
+      </div>
+    </div>
+
+    <!-- Book Categories -->
+    <div class="col-md-10">
+      <!-- Java Books -->
+      <div id="java">
+        <h4 class="mt-4">Java Books</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-3">
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/corejava.png" class="card-img-top" alt="Core Java Basics">
+              <div class="card-body text-center">
+                <h5 class="card-title">Core Java Basics</h5>
+                <p class="card-text">Description about core Java Basics book.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/advjava.png" class="card-img-top" alt="Advanced Java">
+              <div class="card-body text-center">
+                <h5 class="card-title">Advanced Java</h5>
+                <p class="card-text">Description about Advanced Java book.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/spring.png" class="card-img-top" alt="Spring">
+              <div class="card-body text-center">
+                <h5 class="card-title">Spring</h5>
+                <p class="card-text">Description about Java Basics book.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/30days.png" class="card-img-top" alt="Java in 30 Days">
+              <div class="card-body text-center">
+                <h5 class="card-title">Java in 30 days</h5>
+                <p class="card-text">Description about Java Basics book.</p>
+                <p class="text-warning">★★★☆☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/servlet.png" class="card-img-top" alt="Servlet">
+              <div class="card-body text-center">
+                <h5 class="card-title">Servlet and API</h5>
+                <p class="card-text">Master servlet & API.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/interview.png" class="card-img-top" alt="Interview Java">
+              <div class="card-body text-center">
+                <h5 class="card-title">Interview Cracking in Java</h5>
+                <p class="card-text">Description about Java Basics book.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/dsajava.png" class="card-img-top" alt="DSA">
+              <div class="card-body text-center">
+                <h5 class="card-title">Data Structure and Algorthims in Java</h5>
+                <p class="card-text">Master DSA for Professionals.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/spring boot.png" class="card-img-top" alt="Spring Boot">
+              <div class="card-body text-center">
+                <h5 class="card-title">Spring Boot in Java</h5>
+                <p class="card-text">Spring boot for Advanced programs and exercises for Professionals.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Python Books -->
+      <div id="python">
+        <h4 class="mt-5">Python Books</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/python.png" class="card-img-top" alt="Python for Beginners">
+              <div class="card-body text-center">
+                <h5 class="card-title">Python for Beginners</h5>
+                <p class="card-text">Learn Python from scratch with real time projects by Author.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/datascience.png" class="card-img-top" alt="Data Science">
+              <div class="card-body text-center">
+                <h5 class="card-title">Data Science with Python</h5>
+                <p class="card-text">Explore data analysis and ML.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript Books -->
+      <div id="javascript">
+        <h4 class="mt-5">JavaScript Books</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/javascript.png" class="card-img-top" alt="JS Essentials">
+              <div class="card-body text-center">
+                <h5 class="card-title">JS Essentials</h5>
+                <p class="card-text">Master Advanced of JavaScript ES6 with projects.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/advancedjs.png" class="card-img-top" alt="Advanced JS">
+              <div class="card-body text-center">
+                <h5 class="card-title">Advanced JavaScript</h5>
+                <p class="card-text">Limited edition 2006.<br>Ideal for professional developers.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/angular.png" class="card-img-top" alt="Angular">
+              <div class="card-body text-center">
+                <h5 class="card-title">Angular JS Fundamentals</h5>
+                <p class="card-text">Advanced Angular Javascript.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HTML/CSS Books -->
+      <div id="htmlcss">
+        <h4 class="mt-5">HTML/CSS Books</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/web design.png" class="card-img-top" alt="Web Design">
+              <div class="card-body text-center">
+                <h5 class="card-title">Web Design Basics</h5>
+                <p class="card-text">Create beautiful web pages using <br>Html 5 & CSS 3.</p>
+                <p class="text-success">★★★★☆</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/advcss.png" class="card-img-top" alt="Advanced CSS">
+              <div class="card-body text-center">
+                <h5 class="card-title">Advanced CSS Practical</h5>
+                <p class="card-text">Create beautiful web pages.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap Books -->
+      <div id="bootstrap">
+        <h4 class="mt-5">Bootstrap Books</h4>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/Online-Book-Store/images/bootstrap.png" class="card-img-top" alt="Bootstrap 5">
+              <div class="card-body text-center">
+                <h5 class="card-title">Bootstrap 5</h5>
+                <p class="card-text">Master Bootstrap.</p>
+                <p class="text-success">★★★★★</p>
+                <a href="/Online-Book-Store/payment/buy.html" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center p-3 mt-5">
+  <p>&copy; 2025 Online Book Store. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
